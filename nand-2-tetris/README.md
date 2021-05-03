@@ -40,14 +40,16 @@ If a Boolean function f operates on n variables and returns m binary results, th
 
 ## Hardware Description Language (HDL)
 
-__HDL is functional/ declarative language__: a formalism for defining chips; objects whose interfaces consist of input and output pins what carry binary signals, and whose implementations are connected arrangements of other, lower-level, chips.
+__HDL (not a programming language) is functional/ declarative language__: a formalism for defining chips; objects whose interfaces consist of input and output pins what carry binary signals, and whose implementations are connected arrangements of other, lower-level, chips.
 
 - __Design: from requirements to interface__
+
 ![Requirement](build-gates.PNG)
 
 Idea:
 - - out=1 when: (a AND NOT(B)) OR (b AND NOT(a))
 - - Find possible diagrams. For example:
+
 ![gate diagram](gate-diagram.PNG)
 - Design: from gate diagrams to HDL
 
@@ -73,8 +75,5 @@ CHIP Xor {
 
 ```
 
-
-
-## Multi-bit versions of basic gates
-- Multi-bit arrays: busess (computer hardware is designed to operate on busses. _For example, a basic requirement of a 32-bit computer is to be able to compute (bit-wise) an And function on two given 32-bit buses_ )
-- 
+## Multi-bit busses
+Multi-bit arrays: busess (computer hardware is designed to operate on busses. _For example, a basic requirement of a 32-bit computer is to be able to compute (bit-wise) an And function on two given 32-bit buses_ )
