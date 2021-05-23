@@ -58,7 +58,22 @@ By default, UNIX shells assign file descriptor 0 to the standard input of a proc
 In Linux, an executable stored on dishk is called a program, and a profram loaded into memoty and running is called a process.
 When a process is started, it is given a unique number called process ID (PID) that identifies that process to the system.
 
+
+
+## Bonus
+### __Web service__
+The purpose serves to communicate between different software applications.
+
+Web services include any software, application, or cloud technology that __provides standardized web protocols (HTTP or HTTPS)__ to interoperate, communicate, and exchange data messaging – usually XML (Extensible Markup Language) – throughout the internet.
+
+Web service comprises these essential function:
+- Available over the internet oe intranet networks.
+- Standardized XML messaging system.
+- Independent of a single operating system or program language.
+- Self-describing via standard XML language.
+- Discoverable through a simple location method.
+
+_All web services can be APIs, but not all APIs can be web services_
 ## Source
 
-
-
+- [Web service explained](https://www.cleo.com/blog/knowledge-base-web-services)
